@@ -1,1 +1,7 @@
 print("Pagina de Contato do usuario")
+print("Digite suas Informações abaixo!")
+nome=str(input("Digite seu nome: "))
+cpf = str(input("Digite seu CPF: "))
+email = str(input("Digite seu email: "))
+print(f"Obrigado {nome}, seu CPF é {cpf} e seu email é {email}.")
+print("Obrigado por entrar em contato!")
